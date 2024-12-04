@@ -2,10 +2,10 @@ import {View, Text, Dimensions} from 'react-native';
 import React from 'react';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import {productDataType} from 'type';
+import {Product} from '../../../type';
 import FastImage from 'react-native-fast-image';
 type Props = {
-  item: productDataType;
+  item: Product;
   onPress?: () => void;
   onPressDelete?: () => void;
 };
